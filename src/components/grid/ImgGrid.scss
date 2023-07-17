@@ -1,0 +1,42 @@
+@use "../../scss/index" as *;
+
+.imggrid_heading_wrapper {
+  @include flex();
+  gap: 8px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.imggrid_heading {
+  text-align: center;
+  font-size: 34px;
+}
+
+.imggrid_heading_wrapper img {
+  width: 38px;
+  // margin-top: 14px;
+  border: 2px;
+}
+.thumbnail-grid {
+  @include flex();
+  flex-wrap: wrap;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 80px;
+}
+
+.thumbnail-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.thumbnail-item img {
+  //   width: 100;
+  padding: 4px;
+  height: 225px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+// .thumbnail-item:hover img {
+//   transform: scale(1.1);
+// }

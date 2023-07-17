@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style-type: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: tomato_g_med;
+  src: url(../src/assets/fonts/TomatoGrotesk-Medium.otf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tomato_g_med {
+  font-family: tomato_g_med;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: tomato_g_bold;
+  src: url(../src/assets/fonts/TomatoGrotesk-Bold.otf);
 }
 
-.App-link {
-  color: #61dafb;
+.tomato_g_bold {
+  font-family: tomato_g_bold;
+}
+@font-face {
+  font-family: tomato_g_reg;
+  src: url(../src/assets/fonts/TomatoGrotesk-Regular.otf);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tomato_g_reg {
+  font-family: tomato_g_reg;
 }
