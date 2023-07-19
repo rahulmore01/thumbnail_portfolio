@@ -8,7 +8,7 @@ import img5 from "../../assets/thumbnails/degree 5.jpg";
 import img6 from "../../assets/thumbnails/degree 6.jpg";
 import img7 from "../../assets/thumbnails/degree 7.jpg";
 import img8 from "../../assets/thumbnails/degree 8.jpg";
-import img9 from "../../assets/thumbnails/degree 9.jpg";
+
 import heart from "../../assets/images/heart.png";
 
 const thumbnails = [img1, img2, img3, img4, img5, img6];
