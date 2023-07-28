@@ -1,6 +1,11 @@
 import React from "react";
 import "./Hero.scss";
 import Logo from "../../assets/images/logo.svg";
+import ai from "../../assets/images/ai.png";
+import canva from "../../assets/images/canva.png";
+import ps from "../../assets/images/ps.png";
+import lr from "../../assets/images/lr.png";
+import figma from "../../assets/images/figma.png";
 
 const Hero = () => {
   return (
@@ -19,7 +24,13 @@ const Hero = () => {
             <button className="tomato_g_med">Hire Me</button>
           </div>
         </main>
-        <div className="hero_brands"></div>
+        <div className="hero_brands">
+          <img className="start_img" src={ps} alt="" />
+          <img src={lr} alt="" />
+          <img src={canva} alt="" />
+          <img src={figma} alt="" />
+          <img className="end_img" src={ai} alt="" />
+        </div>
       </div>
     </>
   );

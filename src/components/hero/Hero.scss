@@ -45,7 +45,19 @@
 }
 
 .hero_brands {
-  background-color: $secondary-color;
+  background-color: #ffffee;
   width: 100%;
   height: 70px;
+  @include flex();
+  gap: 24px;
+}
+
+.hero_brands .start_img {
+  width: 66px;
+}
+.hero_brands .end_img {
+  width: 90px;
+}
+.hero_brands img {
+  width: 42px;
 }
