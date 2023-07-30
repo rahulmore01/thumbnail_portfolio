@@ -6,10 +6,9 @@ import img3 from "../../assets/thumbnails/degree 3.jpg";
 import img4 from "../../assets/thumbnails/degree 4.jpg";
 import img5 from "../../assets/thumbnails/degree 5.jpg";
 import img6 from "../../assets/thumbnails/degree 6.jpg";
-import img7 from "../../assets/thumbnails/degree 7.jpg";
 import heart from "../../assets/images/heart.png";
 
-const thumbnails = [img1, img2, img3, img4, img5, img6];
+const thumbnails = [img1, img2, img6, img3, img4, img5];
 // const thumbnails = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
 
 const ImgGrid = () => {
