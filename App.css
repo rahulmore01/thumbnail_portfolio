@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: tomato_g_med;
+  src: url(../src/assets/fonts/TomatoGrotesk-Medium.otf);
+}
+
+.tomato_g_med {
+  font-family: tomato_g_med;
+}
+
+@font-face {
+  font-family: tomato_g_bold;
+  src: url(../src/assets/fonts/TomatoGrotesk-Bold.otf);
+}
+
+.tomato_g_bold {
+  font-family: tomato_g_bold;
+}
+@font-face {
+  font-family: tomato_g_reg;
+  src: url(../src/assets/fonts/TomatoGrotesk-Regular.otf);
+}
+
+.tomato_g_reg {
+  font-family: tomato_g_reg;
+}
